@@ -1,0 +1,138 @@
+
+
+body {
+	background: white
+	;
+    margin:0;
+}
+
+header {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	
+}
+
+
+nav {
+	background:black;
+	margin-top:0;
+	position: relative;
+	
+}
+
+
+
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+nav > ul > li {
+	float:left;
+
+	
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+    padding:10px 20px;
+    
+}
+nav>ul>li>a:hover {
+	
+border-bottom: 5px solid #5c0812;
+    
+}
+nav ul li a:hover {
+	background:rgba(0, 0, 0, 0.774);
+    
+}
+
+
+nav > ul > li:hover div {
+	display:table;
+	
+}
+
+/*Submenu*/
+nav ul li div {
+	width:1000px;
+	position: absolute;
+	left:0;
+	background:rgba(0, 0, 0, 0.856);
+	box-sizing:border-box;
+	display:none;
+}
+
+nav ul li div ul{
+	width:20%;
+	display:table-cell;
+	border-right: 1px solid white;
+	box-sizing:border-box;
+	
+}
+
+nav ul li div ul:last-child {
+	border:none;
+}
+
+nav ul li div ul .titulo {
+	background:#5c0812;
+	color:black;
+}
+
+nav ul li div ul .titulo a {
+	color:#fff;
+	padding:10px 20px;
+}
+
+
+
+nav ul li div ul .titulo a:hover {
+	background:none;
+}
+
+
+}
+
+nav ul li div ul li a {
+	color:white;
+	
+}
+
+nav ul li div ul li a:hover {
+	color:white;
+	
+}
+
+
+
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.carrito 
+{
+	margin-left: 850px;
+	font-size: 23px;
+	
+	
+}
+ .carrito a:hover
+{
+	color:#5c0812;
+	border-bottom: none;
+}
+nav ul li div ul li a span {
+    margin-right: 20px;
+}

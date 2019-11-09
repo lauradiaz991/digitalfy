@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?tv0dz5');
+  src:  url('icomoon.eot?tv0dz5#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?tv0dz5') format('truetype'),
+    url('icomoon.woff?tv0dz5') format('woff'),
+    url('icomoon.svg?tv0dz5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-android1:before {
+  content: "\e904";
+  color: #a4c639;
+}
+.icon-apple:before {
+  content: "\e905";
+  color: #999;
+}
+.icon-compropago:before {
+  content: "\e906";
+  color: #00aaef;
+}
+.icon-facebook:before {
+  content: "\e907";
+  color: #4172b8;
+}
+.icon-huawei:before {
+  content: "\e909";
+  color: #f00;
+}
+.icon-instagram:before {
+  content: "\e90a";
+  color: #e4405f;
+}
+.icon-telegram:before {
+  content: "\e90c";
+  color: #2ca5e0;
+}
+.icon-twitter1:before {
+  content: "\e90d";
+  color: #1da1f2;
+}
+.icon-user:before {
+  content: "\e90f";
+}
+.icon-bullhorn1:before {
+  content: "\e912";
+}
+.icon-camera2:before {
+  content: "\e913";
+}
+.icon-camera:before {
+  content: "\e915";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-video-camera:before {
+  content: "\e914";
+}
+.icon-bullhorn:before {
+  content: "\e91a";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-printer:before {
+  content: "\e954";
+}
+.icon-keyboard:before {
+  content: "\e955";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-tablet:before {
+  content: "\e95a";
+}
+.icon-power-cord:before {
+  content: "\e9b7";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-attachment:before {
+  content: "\e9cd";
+}
+.icon-wink:before {
+  content: "\e9e7";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-tumblr:before {
+  content: "\eab9";
+}
+.icon-android:before {
+  content: "\eac0";
+}
